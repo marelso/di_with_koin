@@ -43,10 +43,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Column {
-                        Greeting()
-                        Greeting()
-                    }
+                    Greeting()
                 }
             }
         }
